@@ -11,6 +11,7 @@ import numpy as np
 def BubbleSort(nums:List[int]) -> None:
 	"""
 	Accepts nums: list of ints, sorts that inplace with a Bubble Sort.
+	No particular features, it's easy.
 	"""
 	N = len(nums)
 	# corner case
@@ -35,6 +36,7 @@ def BubbleSort(nums:List[int]) -> None:
 def InsertionSort(nums: List[int]) -> None:
 	"""
 	Accepts nums: list of ints, sorts it inplace with an Insertion Sort.
+	Works well for almost-sorted arrays. Works nice for the small arrays.
 	"""
 	for i in range(1, len(nums)):
 		pt = i
